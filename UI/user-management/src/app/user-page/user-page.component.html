@@ -1,0 +1,21 @@
+<app-navbar></app-navbar>
+<br>
+
+<div class="panel-body">
+    <div class="users-details">
+        <h1>User Information</h1>
+        <ul>
+            <li>First Name : {{user.first_Name}}</li>
+            <li>Last Name : {{user.last_Name}}</li>
+            <li>Email : {{user.email}}</li>
+            <li>Type: {{user.type_id | pipeTypeid}}</li>
+        </ul>
+    </div>
+</div>
+<br>
+<div class="panel-body">
+    <div class="countries-details">
+        <h1>Country Information</h1>
+        <app-country-card *ngFor="let country of user.countries" [country]="country"></app-country-card>
+    </div>   
+</div>

@@ -1,0 +1,6 @@
+<form class="login">
+    <h1 class="title">LOGIN</h1>
+    <input type="text" placeholder="Email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}">
+    <input type="password" placeholder="Password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}">
+    <button (click)="onLogin()">Login</button>
+</form>

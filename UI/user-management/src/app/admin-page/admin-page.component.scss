@@ -1,0 +1,149 @@
+// Colors
+$lightGray: rgb(95, 95, 95);
+$menuLight: white;
+$goldenYellow: rgb(219, 182, 80);
+$inputFieldLight: rgb(238, 238, 238);
+
+// Fonts
+$fontAsap: 'Asap', sans-serif;
+
+// Frosted Glass Panel
+.panel-body{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 4px 6px 6px rgba($lightGray, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    color: white;
+    h1{
+ 
+        text-align: left;
+        margin-left: 2%;
+        font-family:"Segoe UI",Roboto,sans-serif;
+        font-weight: 600;
+        text-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        word-spacing: 2px;
+        font-size:  2.2em;
+    }
+    h2{
+ 
+        text-align: left;
+        margin-left: 2%;
+        font-family:"Segoe UI",Roboto,sans-serif;
+        font-weight: 600;
+        text-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        word-spacing: 2px;
+        font-size:  2.2em;
+    }
+    li{
+        margin-left: 3%;
+        text-align: left;
+        text-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        list-style-type: none;
+        font-size:  1.3em;
+        padding-bottom: 15px;
+
+
+    }
+
+
+      
+    
+}
+
+
+// Input Fields
+.input-fields{
+    > input {
+        margin-left: 3%;
+        font-family: $fontAsap;
+        display: block;
+        border-radius: 5px;
+        font-size: 16px;
+        background: $inputFieldLight;
+        width: 16em;
+        border: 0;
+        padding: 10px 10px;
+        margin-top: 14px;
+        box-shadow: 2px 4px 4px rgba($lightGray, 0.2);
+    }
+
+    button:first-of-type{
+        margin-left: 3%;
+    }
+
+    > button {
+    font-family: $fontAsap;
+    cursor: pointer;
+    color: $menuLight;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 80px;
+
+    border: 0;
+    padding: 10px 0;
+    margin-top: 16px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: $goldenYellow;
+    transition: background-color 300ms;
+    box-shadow: 2px 4px 4px rgba($lightGray, 0.2);
+
+    &:hover {
+      background-color: darken($goldenYellow, 5%);
+    }
+    }
+}
+
+// Dropdown Menu
+.dropdown {
+    // position: relative;
+    font-family: $fontAsap;
+    width: 16.5em;
+    display: inline-block;
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 14px;
+    box-shadow: 2px 4px 4px rgba($lightGray, 0.2);
+    border-radius: 10px;
+  }
+  
+  .dropbtn {
+    font-family: $fontAsap;
+    width: 20em;
+    background-color: $goldenYellow;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: darken($goldenYellow, 5%);
+  }

@@ -1,0 +1,15 @@
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\bin\Debug\net6.0\BusinessLogicLayer.deps.json
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\bin\Debug\net6.0\BusinessLogicLayer.dll
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\bin\Debug\net6.0\BusinessLogicLayer.pdb
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.dll
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\obj\Debug\net6.0\refint\BusinessLogicLayer.dll
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.pdb
+C:\Users\danut\Desktop\MusteaDan UserManagement\API\UserManagement\BUsinessLogicLayer\obj\Debug\net6.0\ref\BusinessLogicLayer.dll

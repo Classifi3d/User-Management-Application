@@ -1,0 +1,21 @@
+.country{
+    margin-left: 3%;
+    text-align: left;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    list-style-type: none;
+    font-size:  1.3em;
+    padding-bottom: 15px;
+    .flag{
+        // background-color: red;
+
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+        img{
+            height: 2em;
+            width: auto;
+            margin-left: 1em;
+            margin-bottom: 0;
+        }
+    }
+}

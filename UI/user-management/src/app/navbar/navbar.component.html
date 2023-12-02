@@ -1,0 +1,16 @@
+<div class="navigation">
+    <ul>
+        <!-- <li class="light_mode"><button><img src="assets/moon-icon.png"></button></li> -->
+        <!-- <li><a>Home</a></li> -->
+        <li><div class="dropdown">
+            <button class="dropbtn">
+                <div class="name-avatar" [style.background-color]="backgroundColor">{{username | pipeInitials}}</div>
+            </button>
+            <div class="dropdown-content">
+                <a><button (click)="toAdmin()">Admin</button></a>
+                <a><button (click)="logout()">Log Out</button></a>
+            </div>
+        </div></li>
+
+    </ul>
+</div>

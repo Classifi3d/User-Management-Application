@@ -1,0 +1,47 @@
+<app-navbar></app-navbar>
+<br>
+
+<div class="panel-body"> 
+    <h1>User Information</h1>    
+    <!-- <app-dropdown></app-dropdown> -->
+    <div class="dropdown">
+        <button class="dropbtn">Select a User</button>
+        <div class="dropdown-content">
+            <app-dropdown-user (click)="fillUserFields(user)" *ngFor="let user of this.allUsers" [user]="user"></app-dropdown-user>
+        </div>
+    </div>
+    <div class="input-fields">
+        <input type="text" placeholder="First Name" [(ngModel)]="userFields.first_Name" [ngModelOptions]="{standalone: true}">
+        <input type="text" placeholder="Last Name" [(ngModel)]="userFields.last_Name" [ngModelOptions]="{standalone: true}">
+        <input type="text" placeholder="Email" [(ngModel)]="userFields.email" [ngModelOptions]="{standalone: true}">
+        <input type="password" placeholder="Password" [(ngModel)]="userFields.password" [ngModelOptions]="{standalone: true}">
+        <input type="text" placeholder="Type"  [(ngModel)]="userFields.type_id" [ngModelOptions]="{standalone: true}">
+        <button  (click)="addUser()">Add</button>
+        <button  (click)="editUser()">Edit</button>
+        <button  (click)="deleteUser()">Delete</button>
+    </div>
+    <h1>User's Countries Details</h1>    
+
+    
+    <div class="dropdown">
+        <button class="dropbtn">Select a Country</button>
+        <div class="dropdown-content">
+            <app-dropdown-country (click)="fillCountryFields(country)" *ngFor="let country of this.allCountries" [country]="country"></app-dropdown-country>
+        </div>
+    </div>
+    <div class="input-fields">
+        <input type="text" placeholder="Country Name" [(ngModel)]="countryFields.name" [ngModelOptions]="{standalone: true}">
+        <input type="text" placeholder="Country Code" [(ngModel)]="countryFields.code" [ngModelOptions]="{standalone: true}">
+        <input type="text" placeholder="Country Flag" [(ngModel)]="countryFields.flag" [ngModelOptions]="{standalone: true}">
+        <button  (click)="addCountry()">Add</button>
+        <button  (click)="editCountry()">Edit</button>
+        <button  (click)="deleteCountry()">Delete</button>
+    </div>
+    <br>
+    <h1>User-Country Link</h1>
+    <div class="input-fields">
+        <button  (click)="linkUserCountry()">Link</button>
+        <br>
+        <a>.</a>
+    </div>
+</div>
